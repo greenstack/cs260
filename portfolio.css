@@ -1,0 +1,46 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(19, 14, 94);
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav li a:hover {
+    background-color: rgb(11, 14, 201);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+h1 {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Courier New', Courier, monospace
+}
+
+section{
+    display: flex;
+}
+
+aside{
+    flex: 1;
+}
+
+article{
+    flex: 4;
+}
